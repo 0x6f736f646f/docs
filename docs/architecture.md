@@ -35,8 +35,7 @@ can be consumed by all of the things connected to it.
 
 ## Messaging
 
-Mainflux uses [NATS](https://nats.io) as its messaging backbone, due to its
-lightweight and performant nature. You can treat its *subjects* as physical
+Mainflux uses either [NATS](https://nats.io) or [RabbitMQ](https://www.rabbitmq.com/) as its messaging backbone. You can treat its *subjects* as physical
 representation of Mainflux channels, where subject name is constructed using
 channel unique identifier.
 
